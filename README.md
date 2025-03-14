@@ -3,8 +3,6 @@
 
 This project provides an end-to-end setup of the Confluent Platform using **KRaft mode** (Kafka without Zookeeper) via Docker Compose. It includes essential tools like Kafka REST Proxy, Schema Registry, ksqlDB, and Control Center for an interactive data streaming experience.
 
-```
-
 ---
 
 ## 📘 Overview of Components
