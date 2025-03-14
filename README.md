@@ -142,4 +142,3 @@ This setup provides:
 - ✅ Visual cluster monitoring with Control Center
 
 Whether you're building event-driven applications or just learning Kafka and ksqlDB — this project provides everything you need in one place.
-```
