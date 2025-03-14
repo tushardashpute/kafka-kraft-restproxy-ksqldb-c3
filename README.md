@@ -2,7 +2,6 @@
 # 🔄 Confluent Kafka REST Proxy + ksqlDB + Control Center Setup (KRaft Mode)
 
 This project provides an end-to-end setup of the Confluent Platform using **KRaft mode** (Kafka without Zookeeper) via Docker Compose. It includes essential tools like Kafka REST Proxy, Schema Registry, ksqlDB, and Control Center for an interactive data streaming experience.
-
 ---
 
 ## 📘 Overview of Components
@@ -141,3 +140,4 @@ This setup provides:
 - Visual cluster monitoring with Control Center
 
 Whether you're building event-driven applications or just learning Kafka and ksqlDB — this project provides everything you need in one place.
+```
