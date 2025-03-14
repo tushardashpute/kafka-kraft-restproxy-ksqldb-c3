@@ -7,14 +7,23 @@ This project provides an end-to-end setup of the Confluent Platform using **KRaf
 
 ## 📘 Overview of Components
 
-| Component                       | Description |
-|---------------------            |-------------|
-| **Kafka (KRaft)**               | Kafka in KRaft mode replaces Zookeeper with an internal consensus protocol. It's a distributed event streaming platform for building real-time pipelines and applications. |
-| **Kafka REST Proxy**            | Enables producing and consuming Kafka messages over HTTP/REST APIs instead of using native Kafka clients. Useful for quick integrations and testing. |
-| **Schema Registry**             | Stores and manages Avro/JSON/Protobuf schemas for Kafka topics, ensuring compatibility and structure across producers and consumers. |
-| **Confluent Control Center**    | A GUI-based monitoring and management tool to visualize Kafka clusters, topics, consumers, ksqlDB queries, connectors, and more. |
-| **ksqlDB**                      | A streaming SQL engine for real-time analytics on Kafka topics. You can run SQL queries on streaming data using intuitive syntax. |
-| **ksqlDB CLI**                  | A terminal-based interface to interact with ksqlDB server, define streams/tables, and run queries. |
+- **Kafka (KRaft Mode)**  
+  Kafka in **KRaft (Kafka Raft)** mode eliminates the need for Zookeeper by introducing a built-in consensus protocol. It acts as the core event streaming platform where producers send and consumers receive messages.
+
+- **Kafka REST Proxy**  
+  Allows applications to interact with Kafka over HTTP instead of using native Kafka clients. It’s a great way to produce and consume Kafka messages via simple REST APIs.
+
+- **Schema Registry**  
+  Manages and enforces schemas (Avro, JSON, Protobuf) for Kafka messages. It ensures data compatibility between producers and consumers.
+
+- **Confluent Control Center**  
+  A graphical user interface (GUI) for monitoring and managing your Kafka cluster. You can view topics, consumer groups, message throughput, ksqlDB queries, and more — all in one place.
+
+- **ksqlDB Server**  
+  A streaming SQL engine that enables you to run SQL-like queries on real-time Kafka data. You can define **streams**, **tables**, and **derive insights** from live data using standard SQL syntax.
+
+- **ksqlDB CLI**  
+  A command-line interface used to interact with the ksqlDB server. It allows you to create streams, run queries, and explore real-time data in an interactive terminal environment.
 
 ---
 
