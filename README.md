@@ -1,4 +1,3 @@
----
 
 ```markdown
 # Kafka KRaft Full Stack (Kafka + Kafka REST Proxy + Control Center + KSQLDB)
